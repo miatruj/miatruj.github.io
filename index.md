@@ -1,5 +1,4 @@
 
-Environmental Science student interested in GIS, sustainability, water resources, and nature-based solutions.
 
 ### GIS Portfolio
 Maps, spatial analysis, and environmental planning projects.
