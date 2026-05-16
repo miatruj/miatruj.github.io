@@ -3,6 +3,9 @@
 ## GIS Portfolio
 Maps, spatial analysis, and environmental planning projects.
 
+## Projects
+
+
 ## Skills
 
 - ArcGIS Pro
