@@ -1,4 +1,5 @@
-
+## About Me
+I am especially interested in cartography, environmental planning, restoration, and using GIS to visualize environmental patterns and challenges. Outside of academics, I enjoy hiking, exploring the outdoors, baking, pickleball, and creative projects that connect science and design.
 
 ## GIS Portfolio
 Maps, spatial analysis, and environmental planning projects.
