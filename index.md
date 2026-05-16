@@ -6,7 +6,7 @@ Maps, spatial analysis, and environmental planning projects.
 ## Projects
 
 
-# Mine distribution in relation to soil pH
+# Soil pH Distribution and Mine Site Locations
 ![soil Ph and mine map](Img/Layout1.jpg)
 
 
