@@ -1,4 +1,4 @@
-![My image](Img/IMG_1548.jpg)
+
 
 ### GIS Portfolio
 Maps, spatial analysis, and environmental planning projects.
