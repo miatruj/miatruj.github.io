@@ -19,10 +19,35 @@ Maps, spatial analysis, and environmental planning projects.
 
 ## Skills
 
+### Environmental & GIS
 - ArcGIS Pro
-- Cartography
 - Spatial Analysis
-- Environmental Research 
+- Cartography
+- Environmental Research
+- Environmental Planning
+- Data Collection & Interpretation
+- Sustainability & Remediation Concepts
+- Field Observation & Site Assessment
+
+### Technical
+- Microsoft Excel
+- Data Organization
+- Research & Documentation
+- Map Design & Visualization
+
+### Professional
+- Leadership
+- Communication
+- Team Collaboration
+- Time Management
+- Problem Solving
+- Adaptability
+
+### Military Background
+- United States Navy Veteran
+- Experience working in structured, fast-paced environments
+- Strong attention to detail and accountability
+- Team-oriented leadership and operational discipline 
 
 ### Contact information
 * [Email](mtruji77@msudenver.edu)
