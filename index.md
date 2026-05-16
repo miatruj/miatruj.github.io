@@ -5,6 +5,7 @@ Maps, spatial analysis, and environmental planning projects.
 
 ## Projects
 ![soil Ph and mine map](Img/Layout1.jpg)
+![pollinator suitability analysis](Img/Slide1.jpg)
 
 ## Skills
 
