@@ -4,7 +4,7 @@
 Maps, spatial analysis, and environmental planning projects.
 
 ## Projects
-[pollinator garden](Img/poster.pdf)
+[soil Ph and mine map](Img/Layout1.jpg)
 
 ## Skills
 
