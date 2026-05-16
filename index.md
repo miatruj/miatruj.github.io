@@ -14,6 +14,8 @@ Maps, spatial analysis, and environmental planning projects.
 ### Pollinator Garden Suitability Analysis
 ![pollinator suitability analysis](Img/Slide1.jpg)
 
+---
+
 ## Skills
 
 - ArcGIS Pro
