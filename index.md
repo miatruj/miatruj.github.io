@@ -6,11 +6,11 @@ Maps, spatial analysis, and environmental planning projects.
 ## Projects
 
 
-# Soil pH Distribution and Mine Site Locations
+### Soil pH Distribution and Mine Site Locations
 ![soil Ph and mine map](Img/Layout1.jpg)
 
 
-# Pollinator Garden Suitability Analysis
+### Pollinator Garden Suitability Analysis
 ![pollinator suitability analysis](Img/Slide1.jpg)
 
 ## Skills
