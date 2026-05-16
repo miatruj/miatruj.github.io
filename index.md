@@ -26,7 +26,6 @@ Maps, spatial analysis, and environmental planning projects.
 - Environmental Research
 - Environmental Planning
 - Data Collection & Interpretation
-- Sustainability & Remediation Concepts
 - Field Observation & Site Assessment
 
 ### Technical
