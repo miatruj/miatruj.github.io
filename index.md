@@ -4,7 +4,7 @@
 Maps, spatial analysis, and environmental planning projects.
 
 ## Projects
-! (Img/poster.pdf)
+!(Img/poster.pdf)
 
 ## Skills
 
