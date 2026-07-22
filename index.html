@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mia Trujillo | GIS & Environmental Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GIS, cartography, environmental planning, and restoration portfolio of Mia Trujillo, Environmental Science student and U.S. Navy veteran.">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    :root {
+      --forest: #29443a;
+      --sage: #71877b;
+      --sand: #f2efe8;
+      --ink: #26312d;
+      --muted: #5f6d67;
+    }
+
+    html { scroll-behavior: smooth; }
+    body, h1, h2, h3, h4, h5, h6 { font-family: "Montserrat", sans-serif; }
+    body { color: var(--ink); background: #fff; }
+    h2 { color: var(--forest); font-weight: 700; }
+    h3 { color: var(--ink); font-weight: 600; }
+    a { color: var(--forest); }
+
+    .bgimg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: linear-gradient(rgba(28, 50, 42, .22), rgba(28, 50, 42, .22)), url('Img/Profile.jpg');
+      background-color: var(--forest);
+      min-height: 100%;
+    }
+
+    .accent-button {
+      background: var(--forest) !important;
+      color: white !important;
+      border-radius: 2px;
+    }
+    .accent-button:hover { background: var(--sage) !important; }
+    .section-rule { border-color: var(--sage); opacity: .45; }
+    .tag {
+      display: inline-block;
+      margin: 4px 5px 4px 0;
+      padding: 7px 10px;
+      background: var(--sand);
+      color: var(--forest);
+      border-radius: 18px;
+      font-size: .86rem;
+      font-weight: 500;
+    }
+    .project-card {
+      background: #fff;
+      border: 1px solid #deded9;
+      box-shadow: 0 3px 12px rgba(0,0,0,.07);
+      margin-bottom: 28px;
+      overflow: hidden;
+    }
+    .project-card img { width: 100%; display: block; }
+    .project-copy { padding: 22px; }
+    .project-copy p { color: var(--muted); }
+    .metric-strip { background: var(--forest); color: white; }
+    .timeline-item { border-left: 3px solid var(--sage); padding: 0 0 20px 20px; margin-left: 5px; }
+    .timeline-item:last-child { padding-bottom: 0; }
+    .subtle { color: var(--muted); }
+    .contact-link { text-decoration: none; }
+    .contact-link:hover { text-decoration: underline; }
+    .footer-link { margin: 0 8px; text-decoration: none; }
+
+    @media (max-width: 992px) {
+      .w3-main { margin-left: 0 !important; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Desktop sidebar image. Replace Img/Profile.jpg with a professional outdoor or headshot image. -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:38%">
+  <div class="bgimg" role="img" aria-label="Professional portrait of Mia Trujillo"></div>
+</nav>
+
+<!-- Mobile navigation -->
+<nav class="w3-sidebar w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:3;background:var(--forest);color:white" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#home" class="w3-bar-item w3-button" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="closeNav()">Projects</a>
+    <a href="#about" class="w3-bar-item w3-button" onclick="closeNav()">About</a>
+    <a href="#experience" class="w3-bar-item w3-button" onclick="closeNav()">Experience</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<div class="w3-main w3-padding-large" style="margin-left:38%">
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;z-index:2" onclick="openNav()" aria-label="Open navigation">
+    <i class="fa fa-bars"></i>
+  </span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:112px 16px 88px" id="home">
+    <p class="w3-wide subtle">GIS · CARTOGRAPHY · ENVIRONMENTAL SCIENCE</p>
+    <h1 class="w3-jumbo"><b>Mia Trujillo</b></h1>
+    <p class="w3-large subtle">Environmental Science Student &amp; U.S. Navy Veteran</p>
+    <p style="max-width:720px;margin:28px auto;color:var(--muted)">
+      I use GIS, spatial analysis, and clear visual communication to explore environmental patterns and support practical planning, restoration, and conservation decisions.
+    </p>
+    <img src="Img/Profile.jpg" alt="Mia Trujillo" class="w3-image w3-hide-large w3-round" style="display:block;width:70%;max-width:420px;margin:28px auto;">
+    <a href="Mia_Trujillo_Resume.pdf" download class="w3-button accent-button w3-padding-large w3-margin-top">
+      <i class="fa fa-download"></i> Download Resume
+    </a>
+    <a href="#portfolio" class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      View Projects
+    </a>
+  </header>
+
+  <!-- Portfolio -->
+  <section class="w3-padding-32 w3-content" id="portfolio">
+    <h2>Selected GIS Projects</h2>
+    <hr class="section-rule">
+    <p class="subtle">Maps and analyses demonstrating environmental research, spatial reasoning, cartographic design, and planning applications.</p>
+
+    <article class="project-card">
+      <img src="Img/Layout1.jpg" alt="Map showing soil pH distribution and mine site locations">
+      <div class="project-copy">
+        <h3>Soil pH Distribution and Mine Site Locations</h3>
+        <p>
+          A cartographic analysis examining the spatial relationship between soil pH patterns and mine locations. The project emphasizes clear symbology, environmental data interpretation, and visual communication of possible areas of concern.
+        </p>
+        <span class="tag">ArcGIS Pro</span>
+        <span class="tag">Spatial Analysis</span>
+        <span class="tag">Environmental Mapping</span>
+        <span class="tag">Cartographic Design</span>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <img src="Img/Slide1.jpg" alt="Pollinator garden suitability analysis map">
+      <div class="project-copy">
+        <h3>Pollinator Garden Suitability Analysis</h3>
+        <p>
+          A site-suitability project identifying promising locations for pollinator habitat. The analysis brings together environmental and site conditions to support campus planning, habitat enhancement, and defensible decision-making.
+        </p>
+        <span class="tag">Suitability Modeling</span>
+        <span class="tag">Environmental Planning</span>
+        <span class="tag">Site Assessment</span>
+        <span class="tag">Map Communication</span>
+      </div>
+    </article>
+
+    <div class="w3-panel" style="background:var(--sand);padding:22px">
+      <h3>More work in progress</h3>
+      <p class="subtle">Future additions may include watershed analysis, snowpack and streamflow visualization, restoration planning, field data collection, and environmental change mapping.</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="w3-content w3-justify w3-padding-32" id="about">
+    <h2>About Me</h2>
+    <hr class="section-rule">
+    <p>
+      I am an Environmental Science student at Metropolitan State University of Denver with interests in cartography, environmental planning, ecological restoration, and the use of GIS to visualize environmental challenges. I am especially motivated by projects that turn complex spatial information into maps that are understandable, useful, and grounded in real-world decision-making.
+    </p>
+    <p>
+      Before pursuing environmental science, I served in the United States Navy in medical and emergency-care roles. That experience strengthened my leadership, accountability, documentation, communication, and ability to make careful decisions in fast-paced environments. I now bring those transferable skills to research, fieldwork, spatial analysis, and collaborative projects.
+    </p>
+    <p>
+      Outside of academics, I enjoy hiking, exploring Colorado, baking, playing pickleball, and completing creative projects that connect science and design.
+    </p>
+
+    <h3 class="w3-padding-16">Core Skills</h3>
+    <div>
+      <span class="tag">ArcGIS Pro</span>
+      <span class="tag">Spatial Analysis</span>
+      <span class="tag">Cartography</span>
+      <span class="tag">Environmental Planning</span>
+      <span class="tag">Environmental Research</span>
+      <span class="tag">Field Observation</span>
+      <span class="tag">Site Assessment</span>
+      <span class="tag">Microsoft Excel</span>
+      <span class="tag">Data Organization</span>
+      <span class="tag">Technical Documentation</span>
+      <span class="tag">Leadership</span>
+      <span class="tag">Team Collaboration</span>
+      <span class="tag">Problem Solving</span>
+    </div>
+
+    <div class="w3-row w3-center metric-strip w3-padding-16 w3-section" style="margin-top:34px">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">6</span><br>
+        Team Members Led
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">3,500+</span><br>
+        Patient Intakes Supported
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">U.S. Navy</span><br>
+        Veteran
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">GIS</span><br>
+        Environmental Focus
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="w3-content w3-padding-32" id="experience">
+    <h2>Experience &amp; Education</h2>
+    <hr class="section-rule">
+
+    <div class="timeline-item">
+      <h3>Medical Assistant · United States Navy</h3>
+      <p class="subtle"><b>Norfolk, Virginia</b> · February 2022–Present</p>
+      <p>
+        Led up to six Corpsmen supporting ten independent-duty corpsmen and physician assistants. Managed triage and intake for approximately 2,500 patients, documented assessment findings, supported urgent care, and completed technical procedures while maintaining accuracy and professional standards.
+      </p>
+      <p><b>Transferable strengths:</b> team leadership, high-volume workflow management, technical documentation, quality control, critical thinking, and independent work.</p>
+    </div>
+
+    <div class="timeline-item">
+      <h3>Emergency Medical Technician · United States Navy</h3>
+      <p class="subtle"><b>Okinawa, Japan</b> · June 2019–June 2021</p>
+      <p>
+        Supported patient intake, emergency care, laboratory preparation, clinical procedures, inventory management, and standardized education. Worked closely with healthcare teams and communicated important changes in patient condition to medical staff.
+      </p>
+      <p><b>Transferable strengths:</b> field readiness, observation, communication, procedure compliance, logistics, adaptability, and attention to detail.</p>
+    </div>
+
+    <div class="timeline-item">
+      <h3>B.S. Environmental Science · Metropolitan State University of Denver</h3>
+      <p class="subtle">In progress · Expected graduation Fall 2027</p>
+      <p>
+        Coursework and project experience in GIS, spatial analysis, environmental research, statistics, field observation, cartographic design, and environmental planning.
+      </p>
+    </div>
+
+    <div class="timeline-item">
+      <h3>Hospital Corpsman A-School</h3>
+      <p class="subtle"><b>San Antonio, Texas</b> · June 2019</p>
+      <p>Completed medical training and earned Dean's List recognition.</p>
+    </div>
+
+    <h3 class="w3-padding-16">Certifications</h3>
+    <p>EMT-B · CPR · ARMA</p>
+
+    <a href="Mia_Trujillo_Resume.pdf" download class="w3-button accent-button w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Full Resume
+    </a>
+  </section>
+
+  <!-- Contact -->
+  <section class="w3-padding-32 w3-content" id="contact" style="margin-bottom:64px">
+    <h2>Contact</h2>
+    <hr class="section-rule">
+    <p class="subtle">I am interested in internships and early-career opportunities involving GIS, cartography, environmental planning, restoration, water resources, and field-based environmental work.</p>
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Aurora / Denver, Colorado</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> <a class="contact-link" href="mailto:mtruji77@msudenver.edu">mtruji77@msudenver.edu</a></p>
+      <p><i class="fa fa-linkedin fa-fw w3-xxlarge w3-margin-right"></i> <a class="contact-link" href="https://www.linkedin.com/in/mia-trujillo-b759a13b3/" target="_blank" rel="noopener">LinkedIn Profile</a></p>
+    </div>
+
+    <a href="mailto:mtruji77@msudenver.edu?subject=Portfolio%20Inquiry" class="w3-button accent-button w3-padding-large">
+      <i class="fa fa-paper-plane"></i> Email Me
+    </a>
+  </section>
+
+  <footer class="w3-container w3-padding-48 w3-center" style="background:var(--sand);margin:-24px">
+    <a class="footer-link" href="mailto:mtruji77@msudenver.edu" aria-label="Email"><i class="fa fa-envelope w3-xlarge"></i></a>
+    <a class="footer-link" href="https://www.linkedin.com/in/mia-trujillo-b759a13b3/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa fa-linkedin w3-xlarge"></i></a>
+    <p class="w3-small subtle">© 2026 Mia Trujillo · GIS &amp; Environmental Portfolio</p>
+  </footer>
+</div>
+
+<script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "60%";
+    document.getElementById("mySidebar").style.display = "block";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidebar").style.display = "none";
+  }
+</script>
+</body>
+</html>
